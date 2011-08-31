@@ -47,6 +47,9 @@ public class JavaMOPSpec extends Node {
 		for (PropertyAndHandlers prop : this.properties)
 			prop.propertyId = idnum++;
 
+		// create a token for exceptions
+		javamop.parser.main_parser.Token t = new javamop.parser.main_parser.Token();
+
 		// set variables in each event
 		try {
 			setVarsInEvents();

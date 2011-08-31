@@ -1,8 +1,8 @@
 package javamop.parser.ast.aspectj;
 
-import java.util.List;
-
+import java.util.*;
 import javamop.parser.ast.visitor.GenericVisitor;
+import javamop.parser.ast.visitor.PointcutVisitor;
 import javamop.parser.ast.visitor.VoidVisitor;
 
 public class CombinedTypePattern extends TypePattern {

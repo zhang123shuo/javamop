@@ -11,6 +11,7 @@ import javamop.output.aspect.MOPStatistics;
 import javamop.output.aspect.indexingtree.IndexingTree;
 import javamop.output.monitor.WrapperMonitor;
 import javamop.output.monitorset.MonitorSet;
+import javamop.parser.ast.aspectj.BaseTypePattern;
 import javamop.parser.ast.mopspec.EventDefinition;
 import javamop.parser.ast.mopspec.JavaMOPSpec;
 import javamop.parser.ast.mopspec.MOPParameter;
