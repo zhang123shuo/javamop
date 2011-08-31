@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import javamop.MOPException;
+import javamop.Main;
 import javamop.output.MOPVariable;
 import javamop.output.aspect.AspectBody;
 import javamop.output.aspect.indexingtree.IndexingTree;
@@ -135,6 +136,7 @@ public class GeneralAdviceBody extends AdviceBody {
 		MOPVariable origSet = new MOPVariable("origSet");
 		MOPVariable monitors = new MOPVariable("monitors");
 		MOPVariable lastSet = new MOPVariable("lastSet");
+		MOPVariable thisJoinPoint = new MOPVariable("thisJoinPoint");
 
 		if (aroundLocalDecl != null)
 			ret += aroundLocalDecl;

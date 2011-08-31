@@ -11,6 +11,7 @@ import javamop.output.OptimizedCoenableSet;
 import javamop.output.UserJavaCode;
 import javamop.parser.ast.mopspec.EventDefinition;
 import javamop.parser.ast.mopspec.JavaMOPSpec;
+import javamop.parser.ast.mopspec.MOPParameters;
 
 public class RawMonitor extends Monitor{
 

@@ -177,135 +177,129 @@ public interface JavaMOPParserConstants {
   /** RegularExpression Id. */
   int ENDOBJECT = 91;
   /** RegularExpression Id. */
-  int EXTEND = 92;
+  int LONG_LITERAL = 92;
   /** RegularExpression Id. */
-  int INCLUDES = 93;
+  int INTEGER_LITERAL = 93;
   /** RegularExpression Id. */
-  int LONG_LITERAL = 94;
+  int DECIMAL_LITERAL = 94;
   /** RegularExpression Id. */
-  int INTEGER_LITERAL = 95;
+  int HEX_LITERAL = 95;
   /** RegularExpression Id. */
-  int DECIMAL_LITERAL = 96;
+  int OCTAL_LITERAL = 96;
   /** RegularExpression Id. */
-  int HEX_LITERAL = 97;
+  int FLOATING_POINT_LITERAL = 97;
   /** RegularExpression Id. */
-  int OCTAL_LITERAL = 98;
+  int DECIMAL_FLOATING_POINT_LITERAL = 98;
   /** RegularExpression Id. */
-  int FLOATING_POINT_LITERAL = 99;
+  int DECIMAL_EXPONENT = 99;
   /** RegularExpression Id. */
-  int DECIMAL_FLOATING_POINT_LITERAL = 100;
+  int HEXADECIMAL_FLOATING_POINT_LITERAL = 100;
   /** RegularExpression Id. */
-  int DECIMAL_EXPONENT = 101;
+  int HEXADECIMAL_EXPONENT = 101;
   /** RegularExpression Id. */
-  int HEXADECIMAL_FLOATING_POINT_LITERAL = 102;
+  int CHARACTER_LITERAL = 102;
   /** RegularExpression Id. */
-  int HEXADECIMAL_EXPONENT = 103;
+  int STRING_LITERAL = 103;
   /** RegularExpression Id. */
-  int CHARACTER_LITERAL = 104;
+  int IDENTIFIER = 104;
   /** RegularExpression Id. */
-  int STRING_LITERAL = 105;
+  int LETTER = 105;
   /** RegularExpression Id. */
-  int IDENTIFIER = 106;
+  int PART_LETTER = 106;
   /** RegularExpression Id. */
-  int LETTER = 107;
+  int LPAREN = 107;
   /** RegularExpression Id. */
-  int PART_LETTER = 108;
+  int RPAREN = 108;
   /** RegularExpression Id. */
-  int LPAREN = 109;
+  int LBRACE = 109;
   /** RegularExpression Id. */
-  int RPAREN = 110;
+  int RBRACE = 110;
   /** RegularExpression Id. */
-  int LBRACE = 111;
+  int LBRACKET = 111;
   /** RegularExpression Id. */
-  int RBRACE = 112;
+  int RBRACKET = 112;
   /** RegularExpression Id. */
-  int LBRACKET = 113;
+  int SEMICOLON = 113;
   /** RegularExpression Id. */
-  int RBRACKET = 114;
+  int COMMA = 114;
   /** RegularExpression Id. */
-  int SEMICOLON = 115;
+  int AT = 115;
   /** RegularExpression Id. */
-  int COMMA = 116;
+  int ASSIGN = 116;
   /** RegularExpression Id. */
-  int AT = 117;
+  int LT = 117;
   /** RegularExpression Id. */
-  int DOT = 118;
+  int BANG = 118;
   /** RegularExpression Id. */
-  int ASSIGN = 119;
+  int TILDE = 119;
   /** RegularExpression Id. */
-  int LT = 120;
+  int HOOK = 120;
   /** RegularExpression Id. */
-  int BANG = 121;
+  int COLON = 121;
   /** RegularExpression Id. */
-  int TILDE = 122;
+  int EQ = 122;
   /** RegularExpression Id. */
-  int HOOK = 123;
+  int LE = 123;
   /** RegularExpression Id. */
-  int COLON = 124;
+  int GE = 124;
   /** RegularExpression Id. */
-  int EQ = 125;
+  int NE = 125;
   /** RegularExpression Id. */
-  int LE = 126;
+  int SC_OR = 126;
   /** RegularExpression Id. */
-  int GE = 127;
+  int SC_AND = 127;
   /** RegularExpression Id. */
-  int NE = 128;
+  int INCR = 128;
   /** RegularExpression Id. */
-  int SC_OR = 129;
+  int DECR = 129;
   /** RegularExpression Id. */
-  int SC_AND = 130;
+  int PLUS = 130;
   /** RegularExpression Id. */
-  int INCR = 131;
+  int MINUS = 131;
   /** RegularExpression Id. */
-  int DECR = 132;
+  int STAR = 132;
   /** RegularExpression Id. */
-  int PLUS = 133;
+  int SLASH = 133;
   /** RegularExpression Id. */
-  int MINUS = 134;
+  int BIT_AND = 134;
   /** RegularExpression Id. */
-  int STAR = 135;
+  int BIT_OR = 135;
   /** RegularExpression Id. */
-  int SLASH = 136;
+  int XOR = 136;
   /** RegularExpression Id. */
-  int BIT_AND = 137;
+  int REM = 137;
   /** RegularExpression Id. */
-  int BIT_OR = 138;
+  int LSHIFT = 138;
   /** RegularExpression Id. */
-  int XOR = 139;
+  int PLUSASSIGN = 139;
   /** RegularExpression Id. */
-  int REM = 140;
+  int MINUSASSIGN = 140;
   /** RegularExpression Id. */
-  int LSHIFT = 141;
+  int STARASSIGN = 141;
   /** RegularExpression Id. */
-  int PLUSASSIGN = 142;
+  int SLASHASSIGN = 142;
   /** RegularExpression Id. */
-  int MINUSASSIGN = 143;
+  int ANDASSIGN = 143;
   /** RegularExpression Id. */
-  int STARASSIGN = 144;
+  int ORASSIGN = 144;
   /** RegularExpression Id. */
-  int SLASHASSIGN = 145;
+  int XORASSIGN = 145;
   /** RegularExpression Id. */
-  int ANDASSIGN = 146;
+  int REMASSIGN = 146;
   /** RegularExpression Id. */
-  int ORASSIGN = 147;
+  int LSHIFTASSIGN = 147;
   /** RegularExpression Id. */
-  int XORASSIGN = 148;
+  int RSIGNEDSHIFTASSIGN = 148;
   /** RegularExpression Id. */
-  int REMASSIGN = 149;
+  int RUNSIGNEDSHIFTASSIGN = 149;
   /** RegularExpression Id. */
-  int LSHIFTASSIGN = 150;
+  int ELLIPSIS = 150;
   /** RegularExpression Id. */
-  int RSIGNEDSHIFTASSIGN = 151;
+  int RUNSIGNEDSHIFT = 151;
   /** RegularExpression Id. */
-  int RUNSIGNEDSHIFTASSIGN = 152;
+  int RSIGNEDSHIFT = 152;
   /** RegularExpression Id. */
-  int ELLIPSIS = 153;
-  /** RegularExpression Id. */
-  int RUNSIGNEDSHIFT = 154;
-  /** RegularExpression Id. */
-  int RSIGNEDSHIFT = 155;
-  /** RegularExpression Id. */
-  int GT = 156;
+  int GT = 153;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -408,8 +402,6 @@ public interface JavaMOPParserConstants {
     "\"endProgram\"",
     "\"endThread\"",
     "\"endObject\"",
-    "\"extend\"",
-    "\"includes\"",
     "<LONG_LITERAL>",
     "<INTEGER_LITERAL>",
     "<DECIMAL_LITERAL>",
@@ -434,7 +426,6 @@ public interface JavaMOPParserConstants {
     "\";\"",
     "\",\"",
     "\"@\"",
-    "\".\"",
     "\"=\"",
     "\"<\"",
     "\"!\"",
@@ -474,6 +465,7 @@ public interface JavaMOPParserConstants {
     "\">>\"",
     "\">\"",
     "\"\\u001a\"",
+    "\".\"",
   };
 
 }

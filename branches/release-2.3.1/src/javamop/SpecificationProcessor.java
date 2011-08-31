@@ -7,9 +7,7 @@ package javamop;
 
 import java.io.ByteArrayInputStream;
 
-import javamop.parser.JavaMOPExtender;
 import javamop.parser.ast.MOPSpecFile;
-import javamop.parser.astex.MOPSpecFileExt;
 import javamop.parser.main_parser.JavaMOPParser;
 
 public class SpecificationProcessor extends MOPProcessor{
@@ -21,15 +19,14 @@ public class SpecificationProcessor extends MOPProcessor{
 	public String process(String content) throws MOPException {
 
 		//parse a specification file
-		MOPSpecFile mopSpecFile;
+		MOPSpecFile mop_spec_file;
 		try {
-			MOPSpecFileExt mopSpecFileExt = JavaMOPParser.parse(new ByteArrayInputStream(content.getBytes()));
-			mopSpecFile = JavaMOPExtender.translateMopSpecFile(mopSpecFileExt);
+			mop_spec_file = JavaMOPParser.parse(new ByteArrayInputStream(content.getBytes()));
 		} catch (Exception e) {
 			throw new MOPException("Error when parsing a specification file:\n" + e.getMessage());
 		}
 		
 		//use the parent class to process mop specification
-		return super.process(mopSpecFile);
+		return super.process(mop_spec_file);
 	}
 }

@@ -62,8 +62,7 @@ public class EventDefinition extends Node {
 		this.retVal = new MOPParameters(retVal);
 		this.hasThrowing = hasThrowing;
 		this.throwVal = new MOPParameters(throwVal);
-		if(pointCutStr != null) 
-			this.pointCut = parsePointCut(pointCutStr);
+		this.pointCut = parsePointCut(pointCutStr);
 		this.startEvent = startEvent;
 		this.mopParameters = new MOPParameters();
 		this.mopParameters.addAll(this.parameters);

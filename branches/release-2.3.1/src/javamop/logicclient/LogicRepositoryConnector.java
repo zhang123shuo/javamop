@@ -99,6 +99,8 @@ public class LogicRepositoryConnector {
 
 		ByteArrayOutputStream logicOutput_OutputStream;
 		if (LogicRepositoryConnector.serverName.compareTo("local") == 0) {
+			String os = System.getProperty("os.name");
+
 			Class<?> logicClass = Class.forName("logicrepository.Main");
 			ClassLoader loader = logicClass.getClassLoader();
 			String logicClassPath = loader.getResource("logicrepository/Main.class").toString();
