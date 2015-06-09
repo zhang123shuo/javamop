@@ -1,0 +1,12 @@
+# <font color='red'>We moved!</font> <br> <font color='red'>Check us out on the Runtime Verification </font> <a href='https://github.com/runtimeverification'>Github</a>!</h1>
+## More info on Runtime Verification can be found [here](http://runtimeverification.com). ##
+
+JavaMOP is an instance of the MOP framework to the Java language.
+
+Monitoring-Oriented Programming, abbreviated MOP, is a software development and analysis framework aiming at reducing the gap between formal specification and implementation by allowing them together to form a system. In MOP, runtime monitoring is supported and encouraged as a fundamental principle for building reliable software: monitors are automatically synthesized from specified properties and integrated into the original system to check its dynamic behaviors during execution. When a specification is violated or validated at runtime, user-defined actions will be triggered, which can be any code from information logging to runtime recovery. One can understand MOP from at least three perspectives: as a discipline allowing one to improve safety, reliability and dependability of a system by monitoring its requirements against its implementation at runtime; as an extension of programming languages with logics (one can add logical statements anywhere in the program, referring to past or future states); and as a lightweight formal method.
+
+[MOP](http://fsl.cs.uiuc.edu/MOP) and [JavaMOP](http://fsl.cs.uiuc.edu/JavaMOP) are currently developed and maintained by the [Formal Systems Laboratory](http://fsl.cs.uiuc.edu/) at the [University of Illinois at Urbana-Champaign](http://cs.illinois.edu), under the supervision of Prof. [Grigore Rosu](http://fsl.cs.uiuc.edu/grosu).  This wiki site is dedicated exclusively to storing and maintaining the source code for JavaMOP (which is written in Java).  See the links above for papers, documentation and an online interface to JavaMOP.
+
+To download JavaMOP, click on the Downloads tab above.  Platform-independent installers are provided both for the binary and for the source code.  If you only want to use JavaMOP (and not to modify it), then we strongly recommend that you install the binary version; it has fewer prerequisites than the source code installation and requires no compilation.
+
+Please report any problems or bugs under the Issues tab above.
